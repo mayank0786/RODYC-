@@ -398,3 +398,53 @@ body {
 .signup-text a:hover {
   text-decoration: underline;
 }
+.join-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #fff9f4, #ffe8d9);
+  display: flex; /* Make the section a flex container */
+  justify-content: center; /* Center its content */
+  align-items: center; /* Vertically align content */
+}
+
+.join-content-wrapper { /* New wrapper for text and image */
+    max-width: 1200px; /* Constrain width */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space out text and image */
+    gap: 2rem;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    text-align: left; /* Default text alignment */
+}
+
+.join-text-content { /* New wrapper for text */
+    flex: 1;
+    min-width: 280px;
+}
+
+.join-title {
+    /* ... existing styles ... */
+}
+
+.join-description {
+    /* Add some margin if needed */
+    margin-bottom: 1.5rem;
+}
+
+.community-illustration {
+  flex: 1; /* Allow the illustration to take up available space */
+  text-align: center;
+  /* Remove margin-top if you add flex-direction: column in media queries */
+}
+
+/* Media query adjustments for smaller screens */
+@media (max-width: 768px) {
+    .join-content-wrapper {
+        flex-direction: column; /* Stack vertically */
+        text-align: center; /* Center text for mobile */
+    }
+    .community-illustration {
+        margin-top: 1.5rem; /* Add space between text and image */
+    }
+}
+

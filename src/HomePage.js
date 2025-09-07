@@ -153,23 +153,23 @@ export default function HomePage() {
 
         </div>
 
-        {/* Join Our Community Section */}
 {/* Join Our Community Section */}
 <section className="join-section">
-  <h2 className="join-title">JOIN OUR COMMUNITY</h2>
-  <p className="join-description">
-
-  </p>
-  <button className="join-btn">Get Started</button>
-
-</section>
-
-
-  {/* Illustration */}
-  <div className="community-illustration">
-    <img src={communityImg} alt="Join our community" />
-
+  <div className="join-content-wrapper"> {/* Add this wrapper */}
+    <div className="join-text-content"> {/* Add this wrapper for text */}
+      <h2 className="join-title">JOIN OUR COMMUNITY</h2>
+      <p className="join-description">
+        Join the RODYC community today to unlock exclusive offers,
+        share your experiences, and connect with local businesses! {/* Add some text here */}
+      </p>
+      <button className="join-btn">Get Started</button>
+    </div>
+    <div className="community-illustration">
+      <img src={communityImg} alt="Join our community" />
+    </div>
   </div>
+</section>
+ 
 </div>
       <div>
         {/* Footer */}
