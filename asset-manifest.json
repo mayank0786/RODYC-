@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/RODYC-/static/css/main.7b942ff2.css",
+    "main.js": "/RODYC-/static/js/main.4c825e76.js",
+    "static/js/453.ed3810f9.chunk.js": "/RODYC-/static/js/453.ed3810f9.chunk.js",
+    "static/media/community.png.png": "/RODYC-/static/media/community.png.cae241f3395c6adf327d.png",
+    "static/media/RODYC Secondary Logo - Orange Background.png": "/RODYC-/static/media/RODYC Secondary Logo - Orange Background.5fa21e961ea825e15e1e.png",
+    "index.html": "/RODYC-/index.html",
+    "main.7b942ff2.css.map": "/RODYC-/static/css/main.7b942ff2.css.map",
+    "main.4c825e76.js.map": "/RODYC-/static/js/main.4c825e76.js.map",
+    "453.ed3810f9.chunk.js.map": "/RODYC-/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b942ff2.css",
+    "static/js/main.4c825e76.js"
+  ]
+}
